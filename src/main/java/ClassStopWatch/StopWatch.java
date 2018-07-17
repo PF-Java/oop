@@ -20,7 +20,7 @@ public class StopWatch {
         return startTime = System.currentTimeMillis();
     }
 
-    public long end() {
+    public long stop() {
         return endTime = System.currentTimeMillis();
     }
 
