@@ -5,7 +5,7 @@ import java.util.Random;
 public class MyRandom {
     Random random = new Random(1000);
 
-    public int randomNumber() {
+    private int randomNumber() {
        return random.nextInt(100);
     }
 
