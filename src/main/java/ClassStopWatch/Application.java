@@ -14,7 +14,7 @@ public class Application {
         }
         System.out.println("Start time: " + stopWatch.start());
         AlgorithmsSort.sort(list);
-        System.out.println("End time: " + stopWatch.end());
+        System.out.println("End time: " + stopWatch.stop());
         System.out.println("Elapsed: " + stopWatch.getElapsedTime());
     }
 }
